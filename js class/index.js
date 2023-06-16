@@ -44,7 +44,22 @@ console.log(c);
 // result = x === 1 ? "x is 1" : x === 2 ? "x is 2" : " x is not 1 or 2";
 // console.log(result)
 
-for ( let i = 0; i < 10; i++){
-    console.log(i);
-}
+// for ( let i = 0; i < 10; i++){
+//     console.log(i);
+// }
 
+// learning about functions
+// ES5 Style
+// function add(a,b){
+//     console.log(a+b);
+// }
+// ES6 style(Arrow Function)
+const add = (a,b) =>{
+    console.log(a+b);
+};
+
+function area(a,b){
+    return a *b;
+}
+add(19,17);
+add(5,9);
