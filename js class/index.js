@@ -67,25 +67,34 @@
 
 // Objects
 
-const person ={
-    firstName:"John",
-    lastName: "Doe",
-    fullName:() =>{
-    return `${person.firstName} ${person.lastName}`;
-    },
-};
+// const person ={
+//     firstName:"John",
+//     lastName: "Doe",
+//     fullName:() =>{
+//     return `${person.firstName} ${person.lastName}`;
+//     },
+// };
 
-const c =person.firstName;
-const a = person.fullName();
-console.log(c,a);
+// const c =person.firstName;
+// const a = person.fullName();
+// console.log(c,a);
 
-const human ={
-    hobby:"Playing Games",
-    aim:"To be a cricket player",
-    ambition:() =>{
-    return `${human.hobby} ${human.aim}`;
-    }
-}
-const s =human.hobby;
-const b = human.ambition();
-console.log(s,b);
+// const human ={
+//     hobby:"Playing Games",
+//     aim:"To be a cricket player",
+//     ambition:() =>{
+//     return `${human.hobby} ${human.aim}`;
+//     }
+// }
+// const s =human.hobby;
+// const b = human.ambition();
+// console.log(s,b);
+
+// Arrays
+const arr =["Hyundai","Merceedes","BMW","Lamborghini"];
+// access the first item
+const d =arr[0];
+console.log(d);
+// access the last time
+const e = arr[arr.length-1];
+console.log(e);
