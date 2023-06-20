@@ -1,13 +1,13 @@
 //I am using var keyword
-var a="123"
-console.log(a)
+// var a="123"
+// console.log(a)
 
-//I am using let keyword
-let b ='456';
-console.log(b);
+// //I am using let keyword
+// let b ='456';
+// console.log(b);
 
-const c = 789;
-console.log(c);
+// const c = 789;
+// console.log(c);
 
 // alert("Hello World!");
 
@@ -54,12 +54,38 @@ console.log(c);
 //     console.log(a+b);
 // }
 // ES6 style(Arrow Function)
-const add = (a,b) =>{
-    console.log(a+b);
+// const add = (a,b) =>{
+//     console.log(a+b);
+// };
+
+// function area(a,b){
+//     return a *b;
+// }
+// add(19,17);
+// add(5,9);
+
+
+// Objects
+
+const person ={
+    firstName:"John",
+    lastName: "Doe",
+    fullName:() =>{
+    return `${person.firstName} ${person.lastName}`;
+    },
 };
 
-function area(a,b){
-    return a *b;
+const c =person.firstName;
+const a = person.fullName();
+console.log(c,a);
+
+const human ={
+    hobby:"Playing Games",
+    aim:"To be a cricket player",
+    ambition:() =>{
+    return `${human.hobby} ${human.aim}`;
+    }
 }
-add(19,17);
-add(5,9);
+const s =human.hobby;
+const b = human.ambition();
+console.log(s,b);
