@@ -91,10 +91,31 @@
 // console.log(s,b);
 
 // Arrays
-const arr =["Hyundai","Merceedes","BMW","Lamborghini"];
-// access the first item
-const d =arr[0];
-console.log(d);
-// access the last time
-const e = arr[arr.length-1];
-console.log(e);
+// const arr =["Hyundai","Merceedes","BMW","Lamborghini"];
+// // access the first item
+// const d =arr[0];
+// console.log(d);
+// // access the last time
+// const e = arr[arr.length-1];
+// console.log(e);
+
+// console.log(arr.length);
+// console.log(arr.sort());
+// console.log(arr.push("test"));
+// console.log(arr.pop());
+
+// User model
+const User=
+{
+    firstName:"Sandip",
+    lastNmae:"Neupane",
+    email:"sandip123@gmail.com",
+    password:"123456",
+    phone:"9867241584",
+};
+
+// User list
+const{password,phone, ...rest}= User;
+console.log({rest});
+
+
